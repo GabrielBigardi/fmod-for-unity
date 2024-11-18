@@ -3,7 +3,7 @@ using UnityEditor;
 
 namespace FMODUnity
 {
-    public class StudioEventEmitterGizoDrawer
+    public class StudioEventEmitterGizmosDrawer
     {
         [DrawGizmo(GizmoType.Selected | GizmoType.Active | GizmoType.NotInSelectionHierarchy | GizmoType.Pickable)]
         private static void DrawGizmo(StudioEventEmitter studioEmitter, GizmoType gizmoType)
